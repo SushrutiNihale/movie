@@ -1,0 +1,11 @@
+form {
+    width: 45vw;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin: auto;
+}
