@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Signup</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="signup.css">
+        
+    </head>
+
+    <body>
+        <div id="navbar">
+            <div id="nav1">dummy text</div>
+            <div onclick="goToHome()">Home</div>
+            <div onclick="goToLogin()">Login</div>
+            <div onclick="goToSignup()">Sign Up</div>
+        </div>
+        <div id="signup-form-div">
+            
+            <form>
+                <h3>Sign Up</h3>
+                <!--Write form input elements here-->
+                <input id="name" type="text" placeholder="Enter your name">
+                <p id="1"> This field is required </p>
+                <input id="phone" type="tel" placeholder="Enter your contact number">
+                <p id="2"> This field is required </p>
+                <input id="email" type="text" placeholder="Enter your email id">
+                <p id="3"> This field is required </p>
+                <input id="password" type="password" placeholder="Enter your password">
+                <p id="4"> This field is required </p>
+                <input id="submit" type="submit" value="SUBMIT" onclick="addUser()">
+
+            </form>
+
+        </div>
+    </body>
+    <script src="signup.js"></script>
+</html>
+
+<!-- <script>
+    let x = document.getElementById('name').value;
+    console.log(x == "")
+</script> -->
