@@ -1,0 +1,38 @@
+#navbar {
+    margin: auto;
+    border: 1px solid black;
+    width: 85vw;
+    display: flex;
+    text-align: right;
+}
+
+#navbar > div {
+    padding: 1em;
+}
+
+#nav1 {
+    flex-grow: 5;
+    color: transparent;
+}
+
+#slideshow {
+    display: flex;
+    justify-content: center;
+}
+
+#slideshow > img {
+    height: 50vh;
+    width: 70vw;
+}
+
+#movies {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+#movies img {
+    
+    height: 400px;
+    width: 270px;
+}
